@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div style={{ padding: '1rem' }}>
       <h2 style={{ 
-        fontSize: '3rem', // Larger font size
+        fontSize: '3rem', 
         fontWeight:"350",
         marginBottom: '4rem', // Space between heading and boxes
         textAlign: 'left',

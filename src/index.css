@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Intro.css */
+
+/* Keyframes for left-to-right movement */
+@keyframes moveRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Keyframes for scale-up animation */
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* Apply move-right animation */
+.moveRight {
+  animation: moveRight 1s ease-out;
+}
+
+/* Apply scale-up animation */
+.scaleUp {
+  animation: scaleUp 0.5s ease-in-out;
+}
+
+/* Adjust button scale-up animation with hover effect */
+.scaleUp:hover {
+  animation: scaleUp 0.3s ease-in-out;
 }
