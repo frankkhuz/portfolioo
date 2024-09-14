@@ -14,7 +14,7 @@ const Page = () => {
         <About/>
         <Skills/>
         <Portfolio/>
-        <Footer/>
+        <Footer />
     </div>
   )
 }

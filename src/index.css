@@ -1,5 +1,7 @@
 /* Intro.css */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Keyframes for left-to-right movement */
 @keyframes moveRight {
   from {
