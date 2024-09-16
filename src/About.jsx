@@ -2,7 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between p-20 md:w-4/5 border border-black ml-12">
+    <div className='w-full flex items-center justify-center px-12 '>
+<div className="flex flex-col md:flex-row justify-between p-20 md:w-4/5 lg:w-full sm:w-full border border-black ">
       <h2 className="text-gray-500 text-4xl md:text-5xl text-center font-light md:font-thin md:text-left shadow-xl">
         About me
       </h2>
@@ -15,6 +16,8 @@ const About = () => {
         </button>
       </div>
     </div>
+    </div>
+    
   )
 }
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import linkedin from "./images/icons8-linkedin-50.png";
 import instagram from "./images/icons8-instagram-50.png";
 import twitter from "./images/icons8-twitterx-50.png";
-
+import './index.css'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,7 +34,7 @@ const Navbar = () => {
       </ul>
       
       {/* Social Media Icons */}
-      <div className="lg:flex gap-4 sm:hidden">
+      <div className=" flex gap-4  socialNav">
         <a href="https://www.linkedin.com/in/franklin-eke/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="LinkedIn" className="w-8 h-8" />
         </a>

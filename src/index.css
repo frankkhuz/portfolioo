@@ -38,3 +38,16 @@
 .scaleUp:hover {
   animation: scaleUp 0.3s ease-in-out;
 }
+
+@media (max-width: 700px) {
+  .socialNav{
+    display: none;
+  }
+  .footerContainer{
+    flex-direction: column;
+  }
+  .footerP{
+    margin: 0;
+  }
+ 
+}
