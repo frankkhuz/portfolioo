@@ -27,10 +27,11 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <ul className={`md:flex items-center md:gap-16 list-none p-0 transition-all duration-300 ease-in-out ${isOpen ? 'block mt-8 text-lg' : 'hidden'} md:block`}>
-        <li><a href="#home" className="block text-black no-underline py-2">HOME</a></li>
-        <li><a href="#about" className="block text-black no-underline py-2">ABOUT</a></li>
-        <li><a href="#project" className="block text-black no-underline py-2">PROJECT</a></li>
-        <li><a href="#contact" className="block text-black no-underline py-2">CONTACT</a></li>
+      <li><a href="#home" className="nav-link block text-black no-underline py-2 hover:text-purple-600">HOME</a></li>
+<li><a href="#about" className="nav-link block text-black no-underline py-2 hover:text-purple-600">ABOUT</a></li>
+<li><a href="#project" className="nav-link block text-black no-underline py-2 hover:text-purple-600">PROJECT</a></li>
+<li><a href="#contact" className="nav-link block text-black no-underline py-2 hover:text-purple-600">CONTACT</a></li>
+
       </ul>
       
       {/* Social Media Icons */}

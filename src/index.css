@@ -38,6 +38,27 @@
 .scaleUp:hover {
   animation: scaleUp 0.3s ease-in-out;
 }
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Thicker underline */
+  background-color: #6b46c1; /* Purple color for underline, matches Tailwind's purple-600 */
+  bottom: 0;
+  left: 50%;
+  transition: width 0.4s ease, left 0.4s ease;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 
 @media (max-width: 700px) {
   .socialNav{
